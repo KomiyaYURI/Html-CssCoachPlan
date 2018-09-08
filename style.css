@@ -1,17 +1,52 @@
 /*style should be here*/
-
-header, section {
-    background-color: rgba(200, 200, 200, 0.1);
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 1em;
+    background-color: #ededed;
+    color: #363636;
 }
 
-h1, h2, h3, p {
-    background-color: rgba(200, 200, 0, 0.1);
+h1 {
+    font-size: 2.4em;
+
 }
 
-span, strong {
-    background-color: rgba(200, 0, 200, 0.1);
+main{
+    display: inline-block;
+    background-color: white;
+    margin-top: 75px;
 }
 
-div {
-    border: 1px solid #CCCCCC;
+h2 {
+    font-size: 2em;
+}
+h3 {
+    color: #EC7263;
+    font-size: 1.8em;
+}
+
+p {
+    font-size: 1.3em;
+}
+header {
+    float: left;
+    width: 100%;
+    border-bottom: 3px double #ededed;
+    text-align: center;
+}
+
+img{
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    top : 75px;
+
+}
+#concent{
+    position: absolute;
+    padding-left: 120px;
+    padding-right: 120px;
 }
