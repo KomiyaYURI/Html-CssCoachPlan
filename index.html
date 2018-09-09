@@ -10,50 +10,54 @@
 <div id="concent">
 
     <main>
-        <header style="padding-top: 50px;">
-            <h1 style="margin-bottom: -15px;">HELLO,</h1>
-            <h2 style="font-size: 24px;">MY NAME IS <span style="color: red">KAMIL</span><sup style="color: darkgrey">24YO</sup> AND THIS IS MY RESUME/CV</h2>
+        <header>
+            <h1>HELLO,</h1>
+            <h2>MY NAME IS
+                <span class="nameInfo">KAMIL</span>
+                <sup class="namesup">24YO</sup>
+                AND THIS IS MY RESUME/CV
+            </h2>
             <img src="./assets/avatar.jpg">
         </header>
 
-        <div style="width: 700px; display: inline-block; vertical-align: top; ">
-            <section>
+        <div id="leftConcent">
+            <section id="AboutMe">
                 <h3>ABOUT ME</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, non, dolorem, cumque distinctio
                     magni quam expedita velit laborum sunt amet facere tempora ut fuga aliquam ad asperiores voluptatem
                     dolorum! Quasi.</p>
             </section>
 
-            <section>
-                <h3>EDUCATION</h3>
-                <ul>
-                    <li>
-                        <span>1990</span>
-                        <div>
+            <section id="education">
+                <h3>Education</h3>
+                <ul id="educationList">
+                    <li class="eduListStyle">
+                        <div class="yearStyle" >1990</div>
+                        <div class="listContent">
                             <strong>I was born in Katowice</strong>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, exercitationem, totam,
                                 dolores iste dolore est aut modi.</p>
                         </div>
                     </li>
                     <li>
-                        <span>2005</span>
-                        <div>
+                        <div class="yearStyle" >2005</div>
+                        <div class="listContent">
                             <strong>Secondary school specializing in artistic</strong>
                             <p>Eos, explicabo, nam, tenetur et ab eius deserunt aspernatur ipsum ducimus quibusdam quis
                                 voluptatibus.</p>
                         </div>
                     </li>
                     <li>
-                        <span>2009</span>
-                        <div>
+                        <div class="yearStyle" >2009</div>
+                        <div class="listContent">
                             <strong>First level graduation in Graphic Design</strong>
                             <p>Aspernatur, mollitia, quos maxime eius suscipit sed beatae ducimus quaerat quibusdam
                                 perferendis? Iusto, quibusdam asperiores unde repellat.</p>
                         </div>
                     </li>
                     <li>
-                        <span>2012</span>
-                        <div>
+                        <div class="yearStyle" >2012</div>
+                        <div class="listContent">
                             <strong>Second level graduation in Graphic Design</strong>
                             <p>Ducimus, aliquam tempore autem itaque et accusantium!</p>
                         </div>
@@ -61,71 +65,111 @@
                 </ul>
             </section>
 
-            <section>
+            <section id="experiences">
                 <h3>EXPERIENCES</h3>
-                <div style="padding-left: 20px;">
+                <div class="experienceContent" >
                     <div>
-                        <div style="vertical-align: top; width: 100px; display: inline-block;">
-                            <div style="font-weight: bold;">Google</div>
-                            <div style="color: darkgray">2013-2014</div>
+                        <div class="experConLeft">
+                            <div class="experienceCompany">Google</div>
+                            <div class="experienceTime">2013-2014</div>
                         </div>
-                        <div style="width: 300px; display: inline-block;">
-                            <div style="font-weight: bold;">Front-end developer / php programmer</div>
-                            <div style="font-size: 9px">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, et, illum perferendis veritatis velit sunt similique qui magni totam harum tempore eius laboriosam accusantium necessitatibus voluptatum? Enim, itaque dignissimos quia.</div>
+                        <div class="experConRight">
+                            <div class="experiencePosition">Front-end developer / php programmer</div>
+                            <div class="experienceDescibe">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, et, illum perferendis veritatis velit sunt similique qui magni totam harum tempore eius laboriosam accusantium necessitatibus voluptatum? Enim, itaque dignissimos quia.</div>
                         </div>
                     </div>
+
                     <div>
-                        <div>
-                            <p>Twitter</p>
-                            <p>2012</p>
+                        <div class="experConLeft">
+                            <div class="experienceCompany">Twitter</div>
+                            <div class="experienceTime">2012</div>
                         </div>
-                        <div>
-                            <p>Web Developer</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, nihil sit nemo voluptatem praesentium. Quia, qui facere consectetur libero asperiores fugiat consequuntur deserunt culpa repudiandae sed quidem voluptas explicabo soluta.</p>
+                        <div class="experConRight">
+                            <div class="experiencePosition">Web Developer</div>
+                            <div class="experienceDescibe">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, nihil sit nemo voluptatem praesentium. Quia, qui facere consectetur libero asperiores fugiat consequuntur deserunt culpa repudiandae sed quidem voluptas explicabo soluta.</div>
                         </div>
                     </div>
                 </div>
             </section>
         </div>
-        <div style="width: 200px; display: inline-block; vertical-align: top; ">
+
+
+        <div id="rightConcent">
             <section>
                 <h3>CONTACT</h3>
-                <div style="width: 450px; ">
-                    <p> <span>iphone: </span> <span>500 345 242</span> </p>
-                    <p> <span>email: </span></span> <span> office@kamsolutions.pl </span> </p>
-                    <p> <span>Twitter</span> <span>https://twitter.com/WordPress</span> </p>
-                    <p> <span>Facebook</span> <span>https://www.facebook.com/facebook</span> </p>
-                    <p> <span>Skype</span> <span>kamsolutions.pl</span> </p>
+                <div id="contactStyle">
+                    <p> <span class="contactWay">iphone: </span>
+                        <br>
+                        <span class="contactDetail">500 345 242</span>
+                    </p>
+                    <p> <span class="contactWay">email: </span>
+                        <br>
+                        </span> <span class="contactDetail"> office@kamsolutions.pl </span> </p>
+                    <p> <span class="contactWay">Twitter: </span>
+                        <br>
+                        <span class="contactDetail">https://twitter.com/WordPress</span> </p>
+                    <p> <span class="contactWay">Facebook:
+                        <br>
+                    </span> <span class="contactDetail">https://www.facebook.com/facebook</span> </p>
+                    <p> <span class="contactWay">Skype: </span>
+                        <br>
+                        <span class="contactDetail">kamsolutions.pl</span> </p>
                 </div>
             </section>
 
             <section>
-                <h3>SKILLS</h3>
+                <h3 id="skills">SKILLS</h3>
                 <div>
-                    <div style="color: whitesmoke; background: orangered; height: 30px; width: 400px; line-height: 30px; padding-left: 10px; margin-bottom: 5px;">HTML</div>
-                    <div style="color: whitesmoke; background: orangered; height: 30px; width: 400px; line-height: 30px; padding-left: 10px; margin-bottom: 5px;">CSS</div>
-                    <div style="color: whitesmoke; background: orangered; height: 30px; width: 400px; line-height: 30px; padding-left: 10px; margin-bottom: 5px;">jQuery</div>
-                    <div style="color: whitesmoke; background: orangered; height: 30px; width: 400px; line-height: 30px; padding-left: 10px; margin-bottom: 5px;">PHP</div>
-                    <div style="color: whitesmoke; background: orangered; height: 30px; width: 400px; line-height: 30px; padding-left: 10px; margin-bottom: 5px;">Laravel 2 (framework)</div>
+                    <div class="skillBar barwidth1">HTML</div>
+                    <div class="skillBar barwidth2">CSS</div>
+                    <div class="skillBar barwidth3">jQuery</div>
+                    <div class="skillBar barwidth4">PHP</div>
+                    <div class="skillBar barwidth5">Laravel 2 (framework)</div>
                 </div>
             </section>
 
             <section>
                 <h3>LANGUAGE</h3>
-                <div style="width: 400px;">
-                    <p> Polish <span style="float: right">star</span> </p>
+                <div id="languageContent">
+                    <p> Polish
+                        <span class="greystar"> &#9733 &nbsp</span>
+                        <span class="redstar">&#9733 &nbsp </span>
+                        <span class="redstar">&#9733 &nbsp</span>
+                        <span class="redstar">&#9733 &nbsp</span>
+                        <span class="redstar">&#9733 &nbsp</span>
+                    </p>
                     <hr>
-                    <p> <span>English</span> <span style="float: right">star</span>  </p>
+                    <p> <span>English</span>
+                        <span class="greystar"> &#9733 &nbsp</span>
+                        <span class="greystar">&#9733 &nbsp </span>
+                        <span class="redstar">&#9733 &nbsp</span>
+                        <span class="redstar">&#9733 &nbsp</span>
+                        <span class="redstar">&#9733 &nbsp</span>
+                    </p>
                     <hr>
                 </div>
             </section>
 
             <section>
                 <h3>HOBBIES</h3>
-                <div style="width: 400px;">
-                    <div style="padding: 5px; display: inline-block; background: brown; color: white;">Photography</div>
-                    <div style="padding: 5px; display: inline-block; background: brown; color: white;">Fitness</div>
-                    <div style="padding: 5px; display: inline-block; background: brown; color: white;">Programming</div>
+                <div id="hobbiesBar">
+                    <div class="hobbBarStyle">
+
+                        <span>&#10084 &nbsp</span>
+
+
+                        <span>Photography</span>
+                    </div>
+                    <div class="hobbBarStyle">
+                        <span>&#10084 &nbsp</span>
+
+                        <span>Fitness</span>
+                    </div>
+                    <div class="hobbBarStyle">
+                        <span>&#10084 &nbsp</span>
+
+                        <span>Programming</span>
+                    </div>
                 </div>
             </section>
         </div>
